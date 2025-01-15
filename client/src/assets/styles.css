@@ -1,0 +1,711 @@
+.hpimg {
+    width: 100%; margin: 0;
+}
+
+* {
+    background-color: #cacaca;
+    margin: 0; padding: 0;
+}
+
+.navbuttons {
+    display: flex; flex-direction: row;
+    width: 40%; justify-content: space-between;
+    position: absolute; top: 3.25vw; right: 2vw;
+    background-color: #333533;
+}
+
+.navbtn{
+    border-radius: 0.85vw;
+    background-color: #efab57; color: black;
+    border: 0.25vw solid #f5c892;
+    height: 4.75vw; width: 10vw;
+    font-family: "Poppins", serif;
+    font-weight: 500; font-size: 1.85vw;
+    padding-left: 0.6vw; padding-right: 0.6vw;
+}
+
+.navbtn1 {
+    width: fit-content;
+}
+.navbtn2 {
+    width: fit-content;
+}
+
+.navbtn3 {
+    width: 11vw;
+}
+
+.logoimg {
+    margin: 0; margin-top: 2vw; margin-left: 2vw;
+    width: 20%; border: none; clip-path: inset(0.5vw); padding: 0;
+    position: absolute; top: 0; left: 0;
+}
+
+.firsthead1 {
+    text-align: center; width: 100%;
+    color: #384444;
+    position: absolute; top: 25.25vw;
+    font-size: 4.65vw; font-weight: 700;
+    font-family: "Merriweather", serif;
+    background-color: transparent;
+}
+
+.firsthead2 {
+    text-align: center; width: 100%;
+    color: #384444;
+    position: absolute; top: 31.25vw;
+    font-size: 4.65vw; font-weight: 700;
+    font-family: "Merriweather", serif;
+    background-color: transparent;
+}
+
+.secondhead {
+    color: #edf3f4; background-color: transparent;
+    font-family: "Lora", serif;
+    font-size: 2.15vw; font-weight: 500;
+    text-align: center; width: 65%;
+    padding-left: 17.25vw; padding-right: 17.25vw;
+    position: absolute; top: 42vw;
+    margin: auto;
+    display: flex; justify-content: center;
+}
+
+.fourinfodiv {
+    display: flex; flex-direction: row;
+    justify-content: space-around;
+    width: 69.6%; height: max-content;
+    padding-left: 15vw; padding-right: 15vw; padding-top: 4.75vw;
+}
+
+.infodiv {
+    display: flex; flex-direction: column;
+    justify-content: space-between;
+    width: 13vw; height: max-content;
+}
+
+.circle {
+    height: 5vw; width: 5vw;
+    border-radius: 50%;
+    background-color: rgb(91, 28, 110);
+    margin: auto; border: 0.25vw solid white;
+    margin-bottom: 2.5vw;
+}
+
+.paradiv {
+    background-color: transparent;
+    font-family: "Lora", serif;
+    font-size: 1.6vw; font-weight: 200;
+    text-align: center; color: black;
+    text-align: center;
+}
+
+.cir1 {
+    background-color: #F49BCD;
+}
+.cir2 {
+    background-color: #99E06F;
+}
+.cir3 {
+    background-color: #61E5E5;
+}
+.cir4 {
+    background-color: #F4D744;
+}
+
+.recdiv {
+    width: 95.96%; padding: 2vw;
+    background-color: #EDF2F4;
+    margin-top: 5vw;
+}
+
+.recommendations-list {
+    background-color: #EDF2F4;
+    margin-bottom: 7vw; display: flex;
+    flex-direction: row; gap: 1vw;
+}
+
+.recommendationshead {
+    font-family: "Merriweather", serif;
+    font-size: 2.15vw; font-weight: 600;
+    color: black; background-color: #EDF2F4;
+    margin-top: 2vw;
+}
+
+.hr_home {
+    border: 0.1vw solid #333533;
+    width: 100%; margin: auto;
+    margin-top: 0.7vw; margin-bottom: 3vw;
+}
+
+footer {
+    background-color: #cacaca; display: flex;
+    flex-direction: row; justify-content: space-between;
+    padding-top: 0.4vw; padding-bottom: 0.4vw;
+}
+
+.footerline {
+    color: #EDF2F4; background-color: #cacaca;
+    display: inline-block; padding-left: 2vw;
+}
+
+.logoutlink {
+    text-decoration: underline; color: rgb(20, 109, 198);
+    background-color: #cacaca;
+    font-family: "Lora", serif;
+    font-size: 1.2vw; font-weight: 400;
+    display: inline-block; padding-right: 2vw;
+}
+
+.recommendation-card {
+    background-color: white;
+    width: 24vw; height: 19vw;
+    border-bottom: 0.2vw solid rgb(188, 188, 188);
+    border-right: 0.2vw solid rgb(188, 188, 188);
+}
+
+.runame {
+    font-family: "Poppins", serif;
+    color: black; font-size: 1.9vw; font-weight: 600;
+    background-color: transparent;
+    padding-top: 1.5vw; padding-bottom: 1vw;
+    text-align: center; margin-top: 1vw;
+    height: 5.75vw;
+    padding-left: 1vw; padding-right: 1vw;
+}
+
+.ruhr {
+    border: 0.085vw solid rgb(127, 127, 127);
+    margin-bottom: 0.85vw;
+}
+
+.ruaddress {
+    font-family: "Lora", serif;
+    color: black; font-size: 1.75vw;
+    background-color: transparent;
+    text-align: center; padding: 1vw;
+}
+
+.wholeloginpage {
+    display: flex; flex-direction: row;
+    width: 100%; height: 100%;
+}
+
+.wholesignuppage {
+    width: 100%; height: 100%;
+}
+
+.signuppartinloginpage {
+    background-color: #efab57; height: 100vh;
+    width: 30%; border-left: 0.125vw solid rgb(133, 133, 133);
+}
+
+.login-container, .register-container {
+    background-color: #cacaca;
+    width: 70%; height: 100vh;
+}
+
+.register-container {
+    width: 100%; height: 100vh;
+}
+
+.createaccountbtn, .gotoaccountbtn {
+    background-color: #333533; color: #efab57;
+    border: 0.3vw solid #a37c48;
+    border-radius: 0.85vw;
+    height: 4.75vw; width: 19vw;
+    font-family: "Poppins", serif;
+    font-weight: 500; font-size: 2vw;
+    margin-top: 4vw; margin-left: 5.56vw;
+}
+
+.gotoaccountbtn {
+    margin-top: 0vw; font-size: 1.92vw;
+    position: absolute; top: 3.75vw; right: 2vw;
+    height: 4.4vw; width: 10vw;
+}
+
+.loginbtninloginpage, .signupbtninsignuppage {
+    background-color: #508991; color: white;
+    border: 0.3vw solid #99b0b3;
+    border-radius: 0.85vw;
+    height: 4.75vw; width: 19vw;
+    font-family: "Poppins", serif;
+    font-weight: 500; font-size: 2vw;
+    margin-top: 5vw; margin-left: 25.4vw;
+}
+
+.signupbtninsignuppage {
+    margin-left: 39vw; margin-top: 6.3vw;
+    margin-bottom: 13vw;
+}
+
+.signuphead {
+    font-family: "Merriweather", serif;
+    font-size: 2.25vw; font-weight: 600;
+    width: 100%; text-align: center;
+    background-color: #efab57;
+    margin-top: 18vw; margin-bottom: 2vw;
+}
+
+.loginhead2 {
+    position: absolute; top: 5vw; right: 13vw;
+    font-family: "Merriweather", serif;
+    font-size: 1.55vw; font-weight: 300;
+    margin-bottom: 2vw;
+}
+
+.loginhead, .signuphead2 {
+    font-family: "Merriweather", serif;
+    font-size: 2.25vw; font-weight: 600;
+    width: 100%; text-align: center;
+    background-color: #cacaca;
+    margin-top: 12vw; margin-bottom: 2vw;
+}
+
+.signuphead2 {
+    margin-bottom: 0.75vw; margin-top: 15.6vw;
+}
+
+.donthave, .createone, .logintext {
+    font-family: "Lora", serif;
+    font-size: 1.75vw; font-weight: 400;
+    width: 100%; text-align: center;
+    background-color: #efab57;
+}
+
+.inplogin, .inpsignup {
+    background-color: #EDF2F4; color: #333533;
+    border-radius: 12vw;
+    width: 27vw; height: 4.6vw;
+    border: none; padding-left: 1.3vw;
+    font-size: 1.65vw;
+    font-family: "Poppins", serif;
+    margin-bottom: 1.1vw;
+    margin-left: 20.65vw;
+    position: relative; z-index: 100;
+}
+
+.inpsignup {
+    background-color: #EDF2F4; color: #333533;
+    border-radius: 12vw;
+    width: 27vw; height: 4.6vw;
+    border: none; padding-left: 1.3vw;
+    font-size: 1.65vw;
+    font-family: "Poppins", serif;
+    margin-bottom: 1.1vw;
+    margin-left: 35.25vw;
+    position: relative; z-index: 100;
+}
+
+.addresslabel {
+    font-family: "Lora", serif;
+    font-size: 1.75vw; font-weight: 600;
+    background-color: transparent; display: inline-block;
+    width: 100%; margin-top: 4vw; margin-bottom: 1.5vw;
+    text-align: center; width: 100%;
+    padding: 0.5vw; background-color: #74a7ac2d;
+}
+
+.expregisterheading {
+    font-family: "Lora", serif;
+    font-size: 1.75vw; font-weight: 600;
+    background-color: transparent; display: inline-block;
+    width: 100%; margin-top: 4vw; margin-bottom: 1.5vw;
+    text-align: center; width: 100%;
+    padding: 0.5vw; background-color: #74a7ac2d;
+}
+
+.inpsignupaddress {
+    width: 10.5vw; height: 3.8vw;
+    margin-left: 0;
+}
+
+.inppwdlogin {
+    margin-bottom: 0.6vw;
+}
+
+.fplink {
+    color: rgb(20, 109, 198);
+    font-family: "Lora", serif; font-size: 1.44vw; font-weight: 400;
+    display: block;
+    margin-left: 35.5vw; margin-top: 0;
+}
+
+.loginwith {
+    font-family: "Lora", serif;
+    font-size: 1.75vw; font-weight: 400;
+    text-align: center; margin-top: 2.5vw;
+    margin-bottom: 4.5vw;
+}
+
+.logoimg2 {
+    margin: 0; margin-top: 2vw; margin-left: 2vw;
+    width: 20%; border: none; padding: 0;
+    position: absolute; top: 0; left: 0;
+}
+
+.registeraddressdiv {
+    display: flex; flex-direction: row; gap: 1vw;
+    margin-top: 2vw; justify-content: center;
+}
+
+.registeraddressdiv input {
+    background-color: #EDF2F4; color: #333533;
+    border-radius: 12vw;
+    width: 18vw; height: 4.45vw;
+    border: none; padding-left: 1.3vw;
+    font-size: 1.65vw; font-family: "Poppins", serif;
+}
+
+label {
+    font-family: "Lora", serif;
+    font-size: 1.75vw; font-weight: 600;
+    background-color: #74a7ac2d; display: inline-block;
+    margin-top: 5vw; margin-bottom: 1.5vw;
+    text-align: center;
+    width: 100%; padding: 0.5vw;
+}
+
+.adressregisterlabel {
+    position: absolute; top: 44.05vw; left: 29.5vw;
+    font-family: "Lora", serif;
+    font-size: 1.75vw; font-weight: 600;
+    background-color: transparent;
+}
+
+.justfillpara {
+    font-family: "Lora", serif;
+    font-size: 1.7vw; font-weight: 400;
+    width: 100%; text-align: center;
+    background-color: transparent; margin-top: 0;
+    margin-bottom: 4vw;
+}
+
+.selectinterest, .selectexp {
+    background-color: #EDF2F4;
+    color: #333533; border-radius: 12vw;
+    width: 27vw; height: 4.6vw;
+    border: none; padding-left: 1.3vw;
+    font-size: 1.65vw;
+    font-family: "Poppins", serif;
+    margin-bottom: 1.1vw;
+    margin-left: 35.25vw; margin-top: 2vw;
+}
+
+.selectexp {
+    margin-bottom: 0vw;
+}
+
+.errorinlogin {
+    color: rgb(209, 10, 10);
+    background-color: transparent;
+    font-family: "Lora", serif; font-size: 1.5vw;
+    padding-left: 12.37vw;
+    margin-bottom: 2vw; margin-top: 0;
+}
+
+.shortenerrorloginpage {
+    background-color: #cacaca; border: none;
+    position: absolute; top: 23.5vw; left: 12vw;
+    width: 9vw; height: 3vw;
+}
+
+.errorinregisterpage {
+    color: #F49BCD;
+}
+
+.connectionshead, .messageshead, .chatmsghead {
+    font-family: "Merriweather", serif;
+    color: black; text-align: center;
+    margin-top: 16vw; font-size: 3vw;
+    margin-bottom: 1.25vw;
+}
+
+.messageshead {
+    margin-bottom: 3.3vw;
+}
+
+.navbuttons2 {
+    display: flex; flex-direction: row;
+    width: 40%; justify-content: space-between;
+    position: absolute; top: 3.25vw; right: 2vw;
+    background-color: transparent;
+}
+
+.navbtn2{
+    border-radius: 0.85vw;
+    background-color: #efab57; color: black;
+    border: 0.25vw solid #f5c892;
+    height: 4.75vw; width: fit-content;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 1.85vw;
+    padding-left: 0.6vw; padding-right: 0.6vw;
+}
+
+.navbtn12 {
+    width: fit-content;
+}
+.navbtn22 {
+    width: fit-content;
+}
+
+.logoimg2 {
+    margin: 0; margin-top: 2vw; margin-left: 2vw;
+    width: 20%; border: none; padding: 0;
+    position: absolute; top: 0; left: 0;
+}
+
+.noconnections, .nomessages, .nonewmsg {
+    text-align: center; color: black;
+    font-family: "Lora", serif;
+    font-size: 1.6vw; font-weight: 200;
+}
+
+.btnpp {
+    font-family: "Poppins", serif;
+    border-radius: 0.85vw; text-align: center;
+    background-color: #508991; color: white;
+    border: 0.25vw solid #99b0b3;
+    height: 4.75vw; width: 17vw;
+    font-weight: 500; font-size: 1.85vw;
+    margin-left: 41.5vw; margin-top: 2vw;
+}
+
+.nameinpp {
+    margin-top: 18vw; text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.hrbelownamepp {
+    border: 0.1vw solid #508991; margin-bottom: 3vw;
+    width: 45%; margin-left: 27.5vw;
+    margin-top: 1.3vw;
+}
+
+.otherinfopp {
+    margin: 1vw; text-align: center;
+    color: black; font-family: "Lora", serif;
+    font-size: 1.6vw; font-weight: 200;
+}
+
+.confirmbtn {
+    font-family: "Poppins", serif;
+    border-radius: 0.65vw; text-align: center;
+    background-color: #508991; color: white;
+    border: 0.125vw solid #99b0b3;
+    height: 4.2vw; width: 10vw;
+    font-weight: 500; font-size: 1.65vw;
+    margin-top: 2vw;
+    display: inline-block;
+    margin-left: 1.5vw; margin-right: 0.65vw;
+}
+
+.ignorebtn {
+    font-family: "Poppins", serif;
+    border-radius: 0.65vw; text-align: center;
+    background-color: transparent; color: black;
+    border: 0.3vw solid #508991;
+    height: 4.2vw; width: 10vw;
+    font-weight: 500; font-size: 1.65vw;
+    margin-top: 2vw;
+    display: inline-block;
+    margin-right: 1.5vw;
+}
+
+.confirmedbtn {
+    font-family: "Poppins", serif;
+    border-radius: 0.65vw; text-align: center;
+    background-color: #757575; color: black;
+    border: 0.1vw solid black;
+    height: 4.2vw; width: 10vw;
+    font-weight: 500; font-size: 1.45vw;
+    margin-left: 41.5vw; margin-top: 2vw;
+    display: inline-block;
+    margin-left: 1.5vw; margin-right: 0.65vw;
+}
+
+.ignoredbtn {
+    font-family: "Poppins", serif;
+    border-radius: 0.65vw; text-align: center;
+    background-color: #757575; color: black;
+    border: 0.1vw solid black;
+    height: 4.2vw; width: 10vw;
+    font-weight: 500; font-size: 1.45vw;
+    margin-left: 41.5vw; margin-top: 2vw;
+    display: inline-block;
+    margin-right: 1.5vw;
+}
+
+.messagetext {
+    color: black; font-family: "Lora", serif;
+    font-size: 1.85vw; display: inline-block;
+    background-color: transparent;
+    margin-top: 2.7vw; margin-left: 5vw; margin-bottom: 3vw;
+}
+
+.onefullmsg {
+    margin: auto; width: 75%; align-items: center;
+}
+
+.oneconnection {
+    margin: auto; margin-bottom: 0.75vw; margin-top: 0.75vw;
+}
+
+.connectionname {
+    color: white;
+    width: 35%; border-radius: 3.5vw; height: 4vw;
+    padding-top: 1.25vw; text-align: center;
+    font-size: 1.85vw; font-family: "Lora", serif;
+    font-weight: 600;
+    background: radial-gradient(circle, #508991, #cacaca);
+    margin: auto; letter-spacing: 0.05vw;
+}
+
+.connectionlist, .messageslist {
+    margin: 4.3vw; list-style-type: none;
+}
+
+.hrdividingmsg {
+    border: 0.1vw solid rgb(154, 154, 154);
+    width: 90%; margin: auto;
+}
+
+.messageslist {
+     margin-top: 0;
+}
+
+.chatnamehead {
+    font-family: "Poppins", serif; font-weight: 500;
+    font-size: 2.25vw; color: white;
+    padding-left: 3vw; padding-top: 1.5vw;
+    padding-bottom: 1.5vw; width: 100%;
+    background-color: #508991; position: fixed; top: 0;
+}
+
+.persons {
+    display: inline-block;
+    font-family: "Lora", serif;
+    font-size: 1.7vw;
+    background-color: transparent;
+}
+
+.msgtxt {
+    font-family: "Merriweather", serif;
+    font-size: 1.79vw;
+    background-color: transparent;
+}
+
+.msgtime {
+    font-size: 1.2vw;
+    background-color: transparent;
+}
+.msgdate {
+    font-size: 1.6vw;
+    background-color: transparent;
+}
+
+.message-sent, .message-received {
+    width: max-content; height: max-content;
+    background-color: #efab5775;
+    padding: 1.5vw; border-radius: 0.8vw;
+    margin-top: 0.35vw; margin-bottom: 0.35vw;
+    max-width: 65%;
+}
+
+.abc {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.def {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.chatinp {
+    width: 29.5vw; height: 3.6vw;
+    background-color: #edf3f4;
+    color: black; font-size: 1.75vw;
+    padding: 0.5vw; border: none;
+    border-top-left-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    padding-left: 1vw;
+}
+
+.chatsend {
+    background-color: #508991; color: #edf3f4;
+    font-family: "Poppins", serif; font-size: 1.55vw;
+    color: white; border: none; padding: 0.7vw;
+    height: 4.67vw; margin-left: 0.35vw;
+}
+
+.sendchat {
+    position: fixed; bottom: 1vw;
+    display: flex; justify-content: center;
+    width: 100%;
+}
+
+.no-recommendations-txt {
+    font-family: "Lora", serif;
+    font-size: 1.75vw; color: black;
+    text-align: center;
+    margin: 5vw; background-color: transparent;
+    margin-top: 4vw;
+}
+
+.chatbtnimg {
+    border-radius: 50%;
+    background-color: #508991;
+    border: 0.5vw solid #508991;
+    height: 4.85vw; width: 4.85vw;
+    display: block; margin: auto;
+}
+
+.chatbutton {
+    border: none; width: 100%;
+    margin-top: 2vw;
+}
+
+.date-header {
+    background-color: aliceblue;
+    width: fit-content; margin: auto;
+    border-radius: 2vw; padding: 0.6vw;
+    font-size: 1.5vw;
+    margin-top: 7.25vw; margin-bottom: 1.5vw;
+}
+
+.sendchat {
+    background-color: transparent;
+}
+
+.messages {
+    padding-bottom: 7.5vw;
+}
+
+.searchbar {
+    width: 27%; background-color: rgba(240, 248, 255, 0.501);
+    padding: 1.25vw;
+    margin: auto;
+    font-size: 1.65vw;
+    border: none;
+    border-radius: 6vw;
+    display: flex; justify-content: center;
+    position: absolute; left: 25vw; top: 3.5vw;
+}
+
+.allnewmsg {
+    margin: 2vw; list-style: none; margin-top: 5vw;
+}
+
+.onenewmsg {
+    color: black;
+    font-family: "Lora", serif;
+    margin: 1vw; font-size: 1.75vw;
+    padding: 0.5vw; margin-left: 29.5vw;
+}
+
+strong {
+    background-color: transparent;
+}
