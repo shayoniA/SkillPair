@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import HomePage from "./components/HomePage";
@@ -13,7 +13,6 @@ const App = () => {
   const currentUserId = localStorage.getItem("userId") || null;
 
   return (
-    <Router>
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/register" element={<Register />} />
@@ -25,7 +24,6 @@ const App = () => {
       <Route path="/chat-messages" element={<ChatMessagesPage currentUserId={currentUserId} />} />
       <Route path="/chat/:senderId" element={<Chat currentUserId={currentUserId} />} />
     </Routes>
-  </Router>
   );
 };
  
