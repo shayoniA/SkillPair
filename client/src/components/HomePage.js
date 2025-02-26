@@ -73,7 +73,7 @@ const HomePage = () => {
       </div>
       <footer>
         <p className="footerline">Made by Sayani</p>
-        <a href="/" className="logoutlink">Log out</a>
+        <a href="/SkillPair" className="logoutlink">Log out</a>
       </footer>
     </div>
   );
