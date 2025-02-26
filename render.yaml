@@ -1,9 +1,0 @@
-services:
-  - name: backend
-    type: web
-    env: node
-    buildCommand: cd server && npm install
-    startCommand: cd server && node server.js
-    envVars:
-      - key: PORT
-        value: 5000
